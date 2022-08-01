@@ -11,7 +11,7 @@
 - Framework: Reactjs
 
 ## Live Demo
-[Live Demo Link](https://track92.github.io/JavaScript-Capstone-Group-Project/dist/)
+[Live Demo Link]
 
 ## Getting started
 
