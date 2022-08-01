@@ -15,10 +15,10 @@
 
 ## Getting started
 
-- This is a react project. Therefore, to get started, add a package.json file to the project by passing these commands to the terminal: 
-        ``npx create-react-app my-app``
-        ``cd my-app``
-        ``npm start``
+#### Pass the following commands to the terminal: 
+        npx create-react-app my-app
+        cd my-app
+        npm start
 
 #### Clone this repository
 
