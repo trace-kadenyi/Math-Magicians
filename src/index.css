@@ -6,17 +6,20 @@
 
 .calculator {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   width: 50%;
   justify-content: center;
   align-items: center;
   margin: auto;
   padding: 30px;
+  gap: 2px;
 }
 
 .calculator > * {
   padding: 30px 0;
   font-size: 1.5rem;
+  border: 1px white solid;
+  font-weight: bold;
 }
 
 .zero {
@@ -35,8 +38,14 @@ main {
   font-size: 2rem;
   width: 100%;
   padding: 15px;
+  font-weight: bold;
+  color: white;
 }
 
 .symbol {
   background-color: rgb(245, 140, 42);
+}
+
+button {
+  cursor: pointer;
 }
