@@ -30,7 +30,7 @@ main {
   position: relative;
 }
 
-.output {
+.input {
   grid-column: 1/ span 4;
   background-color: gray;
   text-align: right;
@@ -40,6 +40,7 @@ main {
   padding: 15px;
   font-weight: bold;
   color: white;
+  height: 80px;
 }
 
 .symbol {
