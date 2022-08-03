@@ -9,6 +9,7 @@
 
 - Major languages: HTML | CSS | JavaScript 
 - Framework: Reactjs
+- Technologies: Jest 
 
 ## Live Demo
 [Live Demo Link]
