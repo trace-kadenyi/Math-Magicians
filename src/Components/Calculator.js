@@ -1,7 +1,6 @@
-/* eslint-disable react/prefer-stateless-function */
-
 import React, { useState } from 'react';
 import calculate from '../Logic/calculate';
+import './Calculator.css';
 
 const Calculator = () => {
   const [calc, setCalc] = useState({ total: '', operation: '', next: '' });
@@ -12,6 +11,9 @@ const Calculator = () => {
 
   return (
     <main>
+      <section>
+        <h2>Let`s do some math!</h2>
+      </section>
       <section className="calculator">
         <p className="input">{(calc.total || '') + (calc.operation || '') + (calc.next || '') || 0 }</p>
         <button type="button" id="AC" onClick={handleClick}>AC</button>
