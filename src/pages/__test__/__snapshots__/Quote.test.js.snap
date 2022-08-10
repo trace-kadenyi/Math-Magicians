@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the Quote page 1`] = `
+<div>
+  <p
+    className="quote"
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    Mathematics has beauty and romance. It’s not a boring place to be, the mathematical world. It’s an extraordinary place; it’s worth spending time there - Marcus du Sautoy
+  </p>
+</div>
+`;

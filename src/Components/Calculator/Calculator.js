@@ -10,7 +10,7 @@ const Calculator = () => {
   };
 
   return (
-    <main>
+    <main data-testid="calculator-1">
       <section>
         <h2>Let`s do some math!</h2>
       </section>
