@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Calculator from './Components/Calculator';
+import Calculator from './Components/Calculator/Calculator';
 import Home from './pages/Home';
 import Quote from './pages/Quote';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/Navbar/Navbar';
 
 const App = () => (
   <Router>
