@@ -5,11 +5,10 @@ import Calculator from '../Calculator';
 
 test('should render calculator', () => {
   const calc = render(<Router><Calculator /></Router>)
-  screen.debug()
   expect(calc).toMatchSnapshot();
 });
 
-test('screen updates when user clicks a number', () => {
+test('display updates when user clicks a number', () => {
   render(<Router><Calculator /></Router>)
   expect(screen.getByText('2')).toBeInTheDocument();
   const button2 = screen.getByText('2')
@@ -17,7 +16,5 @@ test('screen updates when user clicks a number', () => {
   fireEvent.click(button2)
   fireEvent.click(button5)
   const display = screen.getByText('25')
-  screen.debug()
   expect(display).toBeInTheDocument()
-
 })
