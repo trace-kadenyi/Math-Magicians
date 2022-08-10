@@ -1,9 +1,13 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { render, screen } from '@testing-library/react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Calculator from '../Calculator';
 
 test('should render calculator', () => {
-  const tree = renderer.create(<Router><Calculator /></Router>).toJSON();
-  expect(tree).toMatchSnapshot();
+  const calc = render(<Router><Calculator /></Router>)
+  expect(calc).toMatchSnapshot();
 });
+
+// test('screen updates when user clicks a number', () => {
+//   render(<Router><Calculator /></Router>)
+// })
