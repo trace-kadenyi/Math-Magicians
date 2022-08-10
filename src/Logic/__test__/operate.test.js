@@ -13,4 +13,7 @@ describe('operations', () => {
   test('it divides numbers', () => {
     expect(operate(2, 2, '÷')).toBe('1');
   });
+  test('modulo test', () => {
+    expect(operate(5, 2, '%')).toBe('1');
+  });
 });
