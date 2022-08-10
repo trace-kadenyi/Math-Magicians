@@ -6,11 +6,11 @@ const Calculator = () => {
   const [calc, setCalc] = useState({ total: '', operation: '', next: '' });
 
   const handleClick = (e) => {
-    setCalc(calculate(calc, e.target.innerText));
+    setCalc(calculate(calc, e.target.id));
   };
 
   return (
-    <main>
+    <main data-testid="calculator-1">
       <section>
         <h2>Let`s do some math!</h2>
       </section>
