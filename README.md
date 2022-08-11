@@ -11,8 +11,8 @@
 - Framework: Reactjs
 
 ## Live Demo
-[Heroku](https://trace-books.herokuapp.com/)
-[Netlify](https://ephemeral-peony-377e43.netlify.app/)
+- [Heroku](https://trace-books.herokuapp.com/)
+- [Netlify](https://ephemeral-peony-377e43.netlify.app/)
 
 ## Getting started
 
