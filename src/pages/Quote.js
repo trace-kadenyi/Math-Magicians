@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Quote.css';
 import logo from '../assets/4.png';
 
@@ -48,13 +48,13 @@ const Quote = () => {
     },
   ];
 
-  // reload page every 10 seconds
-  useEffect(() => {
-    const interval = setInterval(() => {
-      window.location.reload();
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [quotes]);
+  // // reload page every 10 seconds
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     window.location.reload();
+  //   }, 5000);
+  //   return () => clearInterval(interval);
+  // }, [quotes]);
 
   return (
     <div className="quotes_div">
