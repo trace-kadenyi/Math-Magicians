@@ -7,6 +7,21 @@ h2 {
 }
 
 p {
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding: 20px 30px;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container img {
+  height: 300px;
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    flex-direction: column;
+  }
 }

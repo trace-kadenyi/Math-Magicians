@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import calculate from '../../Logic/calculate';
 import './Calculator.css';
+import logo from '../../assets/2.png';
 
 const Calculator = () => {
   const [calc, setCalc] = useState({ total: '', operation: '', next: '' });
@@ -11,8 +12,9 @@ const Calculator = () => {
 
   return (
     <main data-testid="calculator-1">
-      <section>
+      <section className="logo_sect">
         <h2>Let`s do some math!</h2>
+        <img src={logo} alt="logo" />
       </section>
       <section className="calculator">
         <p className="input">{(calc.total || '') + (calc.operation || '') + (calc.next || '') || 0 }</p>

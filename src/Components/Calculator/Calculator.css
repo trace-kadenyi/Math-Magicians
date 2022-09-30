@@ -2,11 +2,19 @@
 .calculator {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 95%;
+  width: 450px;
+  height: 400px;
+  margin: 0 20px 10px;
+  gap: 1px;
+}
+
+.logo_sect img {
+  height: 400px;
+  max-width: 80%;
+  display: flex;
   justify-content: center;
-  align-items: center;
   margin: auto;
-  gap: 2px;
+  align-items: center;
 }
 
 .calculator > * {
@@ -21,10 +29,8 @@
 }
 
 main {
-  position: relative;
-  display: grid;
-  height: 100%;
-  grid-template-columns: 40% 60%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .input {
@@ -59,23 +65,19 @@ h2 {
     padding: 15px;
   }
 
+  .calculator {
+    width: 350px;
+  }
+
   main {
     display: flex;
     flex-direction: column;
-  }
-
-  .calculator {
-    width: 90%;
+    align-items: center;
+    justify-content: center;
   }
 
   h2 {
     width: 100%;
     text-align: center;
-  }
-}
-
-@media screen and (min-width: 750px) and (max-width: 892px) {
-  .calculator > * {
-    padding: 18px;
   }
 }
