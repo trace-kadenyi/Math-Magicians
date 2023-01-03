@@ -11,7 +11,7 @@
 - Framework: Reactjs
 
 ## Live Demo
-- [Netlify](https://ephemeral-peony-377e43.netlify.app/)
+- [LIVE DEMO LINK](https://math-magicks.netlify.app/)
 
 ## Getting started
 
